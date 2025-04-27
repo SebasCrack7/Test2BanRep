@@ -24,7 +24,7 @@ with tab1:
 
 with tab2:
     fig, ax = plt.subplots(1,1, figsize=(10, 4))
-    merge.plot(column="Valor", cmap="OrRd", legend=True,ax=ax)
+    merge.plot(column="Valor", cmap="winter", legend=True,ax=ax)
     plt.axis('off')
 
     st.pyplot(fig)
